@@ -25,7 +25,7 @@ public class MSGameBoard extends JPanel
       numBombs=45;
       numFlags=0;
       setLayout(new GridLayout(20,20));
-      bomb = new ImageIcon("bomb.GIF");
+      bomb = new ImageIcon("images/bomb.GIF");
       flag = new ImageIcon("images/flag.GIF");
       one = new ImageIcon("images/one.GIF");
       two = new ImageIcon("images/two.GIF");
